@@ -1,0 +1,2 @@
+Detect getting last element of array
+([A-Za-z_][A-Za-z_0-9]+)\s*\[\1\.length\s*\-\s*1\]
