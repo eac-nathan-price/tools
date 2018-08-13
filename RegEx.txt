@@ -1,2 +1,6 @@
-Detect getting last element of array
+Getting last element of array
 ([A-Za-z_][A-Za-z_0-9]+)\s*\[\1\.length\s*\-\s*1\]
+
+Check if array contains value
+.indexOf\(\s*.+\s*!==?\s*-1\s*\)
+
