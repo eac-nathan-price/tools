@@ -8,4 +8,4 @@ Find where to indent sql string
 ((--.*?(\\n\s*)+)|[^\s\w]*((select)|(inner join)|(outer join)|(join)|(where)|(group)|(then))\W)|((?<=(\\n\s*)+)(?!\s*\\n)\S)
 
 Match json key and value
-(?<=\W")(?:[^"\\]|\\.)*(?="\W)
+(?<=")(?!\s*[:,]\s*)(?:[^"\\]|\\.)*(?=")
